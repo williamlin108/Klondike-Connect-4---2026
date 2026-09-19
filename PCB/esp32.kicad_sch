@@ -3962,7 +3962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+		(property "Footprint" "Library:ESP32-C3-WROOM-02_Modified"
 			(at 203.2 111.125 0)
 			(hide yes)
 			(show_name no)
