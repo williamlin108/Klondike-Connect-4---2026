@@ -37,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:STEPSTICK_socket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1600,7 +1600,7 @@
 		)
 		(uuid "938ef8e3-d5ee-4f74-aa48-5ee97d119936")
 	)
-	(hierarchical_label "M1"
+	(hierarchical_label "M1[3..0]"
 		(shape output)
 		(at 177.8 76.2 90)
 		(effects
@@ -1622,7 +1622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02e0d1fb-45cb-481d-8494-04f4e317a37d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR067"
 			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1682,7 +1682,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1778,7 +1778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b10ee64-4f8e-4234-8bd2-f90786f22796")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR066"
 			(at 154.94 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -1838,7 +1838,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33a5108f-f9cf-4611-8fd6-c94e66b921df")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR061"
 			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1915,7 +1915,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2013,7 +2013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b3d688-8abc-4469-a802-aed75f75bc7e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR062"
 			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2074,7 +2074,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c763ef75-0bd9-456c-be7b-6e7585253a75")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 151.13 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:STEPSTICK_socket"
 			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2205,7 +2205,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd6b0c2a-5503-4f42-b746-d7285ec052f6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR065"
 			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
@@ -2282,7 +2282,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2300,7 +2300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34fc718-f4a3-411e-b561-aba230511583")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR063"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2360,7 +2360,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1c6b605-1f25-48e2-a8f1-b45a4587c469")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR064"
 			(at 149.86 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2438,7 +2438,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "#PWR?")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
