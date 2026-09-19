@@ -24,3 +24,9 @@ desktop.ini
 
 # KiCad plugin/cache
 fp-info-cache
+
+# Fabrication outputs (regenerate from KiCad)
+FabOutputs/
+
+# Project backup archives
+*.zip
