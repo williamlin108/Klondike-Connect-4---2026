@@ -11,6 +11,129 @@
 		(company "Purdue EPICS Klondike Connect 4 Group")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -2499,6 +2622,18 @@
 		)
 		(uuid "4f115659-5514-469e-a2a8-14537de264fe")
 	)
+	(rectangle
+		(start 127 50.8)
+		(end 165.1 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a8dfafcd-caee-4905-b755-64e7869931ad")
+	)
 	(text "Strapping Pins + Flash Assist Buttons"
 		(exclude_from_sim no)
 		(at 129.54 107.95 90)
@@ -2508,6 +2643,16 @@
 			)
 		)
 		(uuid "650dd490-cef6-4076-afaa-9167a08907d8")
+	)
+	(text "EXTRA GPIO OUTPUTS"
+		(exclude_from_sim no)
+		(at 129.54 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b24c3aa-7288-4249-a2e6-d3edad22b33c")
 	)
 	(junction
 		(at 177.8 81.28)
@@ -2568,18 +2713,6 @@
 		(uuid "1a91946c-a97c-4833-a9e9-2c4eee1927ac")
 	)
 	(no_connect
-		(at 185.42 106.68)
-		(uuid "60eb3a3b-7127-4ebe-abfd-93584545cc47")
-	)
-	(no_connect
-		(at 185.42 99.06)
-		(uuid "aaed7d85-555a-4fae-8a70-04c4978a18ba")
-	)
-	(no_connect
-		(at 185.42 101.6)
-		(uuid "b905df88-c923-45bd-b5e4-5de2e217e888")
-	)
-	(no_connect
 		(at 185.42 109.22)
 		(uuid "bd9044a6-47f1-4ac1-b639-46a21820898e")
 	)
@@ -2635,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 187.96 101.6)
+			(xy 182.88 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2775,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 187.96 99.06)
+			(xy 182.88 99.06) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68) (xy 187.96 106.68)
+			(xy 182.88 106.68) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3013,6 +3146,16 @@
 		)
 		(uuid "fc9aeffe-8be4-4d7d-b648-4b1a8a99c82b")
 	)
+	(label "IO0"
+		(at 182.88 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3160e08c-471b-4d6e-900b-14a14c0c35a0")
+	)
 	(label "EN"
 		(at 137.16 114.3 180)
 		(effects
@@ -3032,6 +3175,26 @@
 			(justify right bottom)
 		)
 		(uuid "5af98b30-edd9-4c3d-8ee6-3f254d803614")
+	)
+	(label "IO1"
+		(at 182.88 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63dd2509-119c-480d-82d0-345c0e5a9e02")
+	)
+	(label "IO0"
+		(at 139.7 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67698764-9dd2-4d92-bbf1-bec0913a963e")
 	)
 	(label "IO9"
 		(at 182.88 121.92 0)
@@ -3123,6 +3286,16 @@
 		)
 		(uuid "a485630a-27f7-4e05-8a86-918bf32340f9")
 	)
+	(label "IO3"
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acdfde87-a8fa-4bb2-9d25-8da021b93eaf")
+	)
 	(label "D+"
 		(at 182.88 129.54 0)
 		(effects
@@ -3132,6 +3305,26 @@
 			(justify left bottom)
 		)
 		(uuid "bd4dd461-41c9-42e0-bbfb-d627b8280f02")
+	)
+	(label "IO3"
+		(at 182.88 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c888d200-9f1a-4af6-b13e-da1212195fdc")
+	)
+	(label "IO1"
+		(at 146.05 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e1b7b9-4630-4b5a-a2bc-d008917ba28c")
 	)
 	(label "IO2"
 		(at 182.88 104.14 0)
@@ -3607,6 +3800,84 @@
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "146a8e6b-a14b-4c12-8cdf-c006d224a0cb")
+		(property "Reference" "TP12"
+			(at 139.7 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IO0"
+			(at 139.7 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 134.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "468fa4a6-b9ca-4f32-9a78-4a1192bc9741")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4684,6 +4955,84 @@
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6588fdde-7d94-4290-8402-8f96e49adf0c")
+		(property "Reference" "TP13"
+			(at 146.05 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IO1"
+			(at 146.05 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b705597f-0543-44e6-b809-4da3f7fc880c")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -6083,6 +6432,84 @@
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3ac0046-524b-46b9-aeee-134203e06fab")
+		(property "Reference" "TP14"
+			(at 152.4 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IO3"
+			(at 152.4 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 147.32 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f13707c7-afa0-47a1-a49d-e3af6275fa71")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
