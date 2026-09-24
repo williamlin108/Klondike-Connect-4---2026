@@ -576,7 +576,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/willi/OneDrive/Documents/KiCad/10.0/projects/EPICS_Connect4/FabOutputs/",
+      "plot": "../FabOutputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "EPICS_Connect4.step",

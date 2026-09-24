@@ -147,7 +147,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/willi/OneDrive/Documents/KiCad/10.0/projects/EPICS_Connect4/FabOutputs/")
+			(outputdirectory "../FabOutputs/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -12037,7 +12037,7 @@
 			(uuid "55dde619-a5b4-448c-9cd9-6301117dc149")
 		)
 		(embedded_fonts no)
-		(model "/3D/USB_C_Receptacle_GCT_USB4110.stp"
+		(model "${KIPRJMOD}/3D/USB_C_Receptacle_GCT_USB4110.stp"
 			(offset
 				(xyz 0 -3.75 0)
 			)
@@ -13418,7 +13418,7 @@
 			(uuid "c1280899-792d-40cd-bd6a-f40513a603a6")
 		)
 		(embedded_fonts no)
-		(model "/3D/TMC2209.step"
+		(model "${KIPRJMOD}/3D/TMC2209.step"
 			(offset
 				(xyz -6.5 8.5 0)
 			)
@@ -20120,7 +20120,7 @@
 			(uuid "a7f7973a-7f53-4b7c-9bdd-073a39c65251")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/willi/OneDrive/Documents/KiCad/10.0/projects/EPICS_Connect4/PCB/3D/436500201.stp"
+		(model "${KIPRJMOD}/3D/436500201.stp"
 			(offset
 				(xyz 1.5 8.85 0)
 			)
