@@ -30,3 +30,6 @@ FabOutputs/
 
 # Project backup archives
 *.zip
+
+# Import logs from other EDA tools
+*.log
