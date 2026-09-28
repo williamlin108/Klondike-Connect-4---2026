@@ -2065,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 129.54) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02400c15-4bb7-4b4a-b756-ce45cced58b2")
+	)
+	(wire
+		(pts
 			(xy 199.39 137.16) (xy 199.39 132.08)
 		)
 		(stroke
@@ -2092,16 +2102,6 @@
 			(type default)
 		)
 		(uuid "14674e2d-0e4c-4ec0-923c-4267a431029f")
-	)
-	(wire
-		(pts
-			(xy 157.48 104.14) (xy 160.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15bead6a-0fbe-47e8-84ef-7b213dff4754")
 	)
 	(bus
 		(pts
@@ -2235,6 +2235,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a130357a-579e-4050-81ed-d93495ecfb33")
+	)
+	(wire
+		(pts
 			(xy 69.85 139.7) (xy 68.58 139.7)
 		)
 		(stroke
@@ -2292,6 +2302,16 @@
 			(type default)
 		)
 		(uuid "b0efe3c5-c6f6-421a-8c0f-d646ce31574f")
+	)
+	(wire
+		(pts
+			(xy 143.51 149.86) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4734a19-470e-4f67-987f-80a49e1f5dd3")
 	)
 	(bus
 		(pts
@@ -130619,8 +130639,8 @@
 		(uuid "9fea4e42-55b3-4184-afb4-26b333c15363")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 177.8 0)
+		(lib_id "power:+12V")
+		(at 68.58 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -130629,9 +130649,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "074a3ecf-ee8c-4999-8b32-c1715daccb3f")
-		(property "Reference" "#PWR06"
-			(at 107.95 184.15 0)
+		(uuid "073b03b1-462a-42a2-a78b-b6bb0ac90815")
+		(property "Reference" "#PWR01"
+			(at 68.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130641,8 +130661,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 107.95 182.88 0)
+		(property "Value" "+12V"
+			(at 68.58 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -130652,7 +130672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 177.8 0)
+			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130663,7 +130683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 177.8 0)
+			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130673,8 +130693,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 177.8 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130685,12 +130705,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5ad5ebc-6f05-47a1-a8ea-3cac1e581049")
+			(uuid "1566fcfe-b117-4900-b028-34faa69f23d5")
 		)
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -130719,7 +130739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 91.44 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130790,7 +130810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a21ff1a-5045-43d0-abae-c475b9d10e93")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 154.94 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130854,7 +130874,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -130867,12 +130887,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dfeacf9-fad9-49f1-97db-0d94863cfceb")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 92.71 103.6319 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130933,7 +130953,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -130951,7 +130971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d8dd65-f3c8-4dce-b972-441ea9c8d815")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -131011,164 +131031,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 133.35 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1983d69d-2288-4eb7-98eb-7b0ba7a5ff0d")
-		(property "Reference" "TP6"
-			(at 135.89 173.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 175.7679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 138.43 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 133.35 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f6cd97d-82c6-4e62-a9e4-4d65617c8f52")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 107.95 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d10daa-8a96-4da6-afae-a4593693ceaa")
-		(property "Reference" "#PWR05"
-			(at 107.95 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 107.95 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 107.95 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35652c43-26b8-4b96-9ba1-ac4b432d0861")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -131186,7 +131049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28db3ab5-a1f8-4517-b532-de47f9516d21")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -131246,7 +131109,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -131275,7 +131138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ12A"
+		(property "Value" "SMAJ5A"
 			(at 78.74 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131346,7 +131209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a1bfd29-8f94-47ce-8ce3-f069238ede90")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -131406,7 +131269,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -131414,7 +131277,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 165.1 0)
+		(at 157.48 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -131423,9 +131286,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c12c9d7-2d1e-42cc-b37a-d57940c29772")
-		(property "Reference" "#PWR07"
-			(at 120.65 168.91 0)
+		(uuid "43a9ef3a-fcdf-4898-8df4-ee9d026e7cbc")
+		(property "Reference" "#PWR012"
+			(at 161.29 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131436,17 +131299,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 160.02 0)
+			(at 153.67 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 120.65 165.1 0)
+			(at 157.48 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131457,7 +131321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 165.1 0)
+			(at 157.48 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131468,84 +131332,6 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3926836-9621-49c7-bef9-4d260d0ce816")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 157.48 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d007b9e-6b5f-44c3-9e0a-016262e0981d")
-		(property "Reference" "#PWR016"
-			(at 157.48 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 157.48 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 157.48 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 157.48 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -131557,91 +131343,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f43ded9b-1bf7-4ce8-bac5-f40742f1c8e2")
+			(uuid "7ac73980-140b-4a68-afb2-9b617c5d23f3")
 		)
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ff93a6d-246a-4162-8166-4c4ff9ff5f8d")
-		(property "Reference" "TP3"
-			(at 123.19 167.1319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.19 169.6719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 115.57 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e558a5d-68da-43f2-b803-2b0d2d1ae76d")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP3")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -131670,7 +131377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "+5V"
 			(at 60.96 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131681,7 +131388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
 			(at 63.5 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -131741,7 +131448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "542eea14-82da-4740-b2a2-1dfe2b16ae7b")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 172.72 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131808,7 +131515,163 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "J7")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 148.59 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68596f49-2498-4f2c-846b-f69e7291b599")
+		(property "Reference" "#PWR09"
+			(at 148.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 148.59 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 148.59 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "474075ba-891f-4dc9-8b86-5452e01d4ff1")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be6f0df-5473-4121-8ff0-052bc628f778")
+		(property "Reference" "#PWR02"
+			(at 68.58 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08315934-a2cf-4297-ad5f-7737ee665f79")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -131826,7 +131689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dca0431-478d-4b48-abc8-12bf0a2dbafa")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 154.94 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131890,7 +131753,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -131908,7 +131771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efb0729-26d5-4cff-ab17-bf846fd4fb06")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -131968,7 +131831,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -131987,7 +131850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7693cbce-4609-4355-94bd-8c63a7fbea5e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 87.63 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132051,7 +131914,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -132069,7 +131932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ed998d-7470-4fd6-abdd-4271e87fa481")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 88.9 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -132129,7 +131992,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -132290,87 +132153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 139.7 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84549490-21d8-4e1d-a56b-e8e5e89c8cfb")
-		(property "Reference" "#PWR011"
-			(at 135.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 143.51 129.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db890bf2-2110-4b09-8e73-8572fe878bd2")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 149.86 270)
+		(at 143.51 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -132380,8 +132164,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f1cf74-faec-40ff-a980-9b5e4be53bd1")
-		(property "Reference" "#PWR012"
-			(at 135.89 149.86 0)
+		(property "Reference" "#PWR08"
+			(at 143.51 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132392,7 +132176,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 149.8599 90)
+			(at 146.05 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -132403,7 +132187,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 139.7 149.86 0)
+			(at 143.51 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132414,7 +132198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 149.86 0)
+			(at 143.51 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132425,7 +132209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 149.86 0)
+			(at 143.51 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132441,7 +132225,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -132459,7 +132243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8d57be-2907-41f4-a841-3072926e5dcf")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -132519,7 +132303,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -132547,7 +132331,7 @@
 				)
 			)
 		)
-		(property "Value" "5A"
+		(property "Value" "6A"
 			(at 72.39 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132606,84 +132390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 157.48 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9436d084-044f-414e-bc0b-5da20760cf28")
-		(property "Reference" "#PWR014"
-			(at 157.48 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 157.48 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbc02d65-8f77-4d30-bd48-946a2ffb1846")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 201.93 127 90)
 		(unit 1)
@@ -132694,7 +132400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9477c055-eb3c-4b31-a50f-407754f2ee4a")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 209.55 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132705,7 +132411,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor"
+		(property "Value" "MOTOR"
 			(at 209.55 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -132764,7 +132470,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -132782,7 +132488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad4151b-e158-462d-92bf-92d17afd6b5a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -132842,7 +132548,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -133003,85 +132709,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a258a78d-44bc-4994-9919-64d68b9ff989")
-		(property "Reference" "TP2"
-			(at 110.49 173.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 175.7679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 113.03 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2ce22eb-403e-410e-bf15-6ae6513759b0")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 90.17 81.28 0)
 		(mirror y)
@@ -133094,7 +132721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39deaea-0dd5-4a88-95ff-06ea10b04f41")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 87.63 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133158,7 +132785,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -133171,12 +132798,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a893ce1b-d7ec-4e54-b62b-929a94a3d19a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 92.71 111.2519 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133237,7 +132864,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -133324,163 +132951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "befd3ac0-019d-4f4c-8333-b1df390c8864")
-		(property "Reference" "#PWR010"
-			(at 133.35 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeeab832-6d91-4d73-992e-912c46f8e6e5")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c444d126-4b10-45ee-aaad-3651d5914229")
-		(property "Reference" "TP4"
-			(at 123.19 173.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 175.7679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 125.73 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49c350f4-c259-45c7-9801-3f02509b2e21")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 71.12 171.45 0)
 		(unit 1)
@@ -133551,84 +133021,6 @@
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
 					(reference "SYM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d254346b-75b5-45f7-a1d9-1f103172bf35")
-		(property "Reference" "#PWR08"
-			(at 120.65 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fecfe99-bbc8-46c3-87cd-347007fd4938")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -133800,7 +133192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8c7914b-8008-4bb7-9b78-f742e2f5db37")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -133860,86 +133252,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 133.35 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db12ce3f-fe15-4d2a-b181-1baf25cdd57a")
-		(property "Reference" "TP5"
-			(at 135.89 167.1319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 169.6719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 128.27 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 133.35 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cc1d59f-acf4-463d-9aab-74ea37bc76b1")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP5")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -133957,7 +133270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc526d3a-1b8e-462f-bf49-a01775ddbf9b")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 172.72 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134024,15 +133337,15 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 165.1 180)
+		(lib_id "power:+5V")
+		(at 88.9 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -134041,31 +133354,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eafdcd7a-22a3-47cc-ba92-6c3e51f53c45")
-		(property "Reference" "TP1"
-			(at 110.49 167.1319 0)
+		(uuid "ee06a0b4-334f-403d-ac7b-9ce346eae541")
+		(property "Reference" "#PWR04"
+			(at 88.9 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "+12V"
-			(at 110.49 169.6719 0)
+		(property "Value" "+5V"
+			(at 88.9 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 102.87 165.1 0)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
+			(at 88.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134076,7 +133388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 165.1 0)
+			(at 88.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134086,8 +133398,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 107.95 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134098,12 +133410,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "96660954-e5ea-42ae-973a-0e66fc7e8d04")
+			(uuid "e6075b96-54d9-410e-b348-00a28c52812a")
 		)
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "TP1")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -134190,8 +133502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 152.4 139.7 90)
+		(lib_id "power:+5V")
+		(at 157.48 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -134200,9 +133512,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f27fff32-9356-44f8-9a93-2e8b7b85bb59")
-		(property "Reference" "#PWR013"
-			(at 156.21 139.7 0)
+		(uuid "f7914c32-6b2e-4681-a85b-cd4441137a24")
+		(property "Reference" "#PWR010"
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134212,8 +133524,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 148.59 139.6999 90)
+		(property "Value" "+5V"
+			(at 153.67 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -134224,7 +133536,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 152.4 139.7 0)
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134235,7 +133547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 139.7 0)
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134245,86 +133557,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 152.4 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "342e6fa5-80e6-4426-a592-d737f294fe47")
-		)
-		(instances
-			(project "EPICS_Connect4"
-				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 133.35 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4f3ad55-da19-4f3d-ae40-f5b91764b74b")
-		(property "Reference" "#PWR09"
-			(at 133.35 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 133.35 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 133.35 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134335,12 +133569,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3db779e4-e7ee-4828-a525-85e9566ca62c")
+			(uuid "83d4e7d7-d9ac-444f-b25e-528024169393")
 		)
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -134495,6 +133729,88 @@
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 63.5 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdc050a5-d5de-4c84-943e-f1178fb0c9f7")
+		(property "Reference" "J2"
+			(at 60.96 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+12V"
+			(at 60.96 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c3a1c4b-edff-4f12-b1c3-bd9537012010")
+		)
+		(pin "2"
+			(uuid "f5264758-78d9-4501-9377-204a5bec3f88")
+		)
+		(instances
+			(project "EPICS_Connect4"
+				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -134704,16 +134020,6 @@
 				(justify right)
 			)
 		)
-		(pin "+5V" output
-			(at 139.7 129.54 0)
-			(uuid "e8a1c77b-f209-40ce-ba08-82c642d35c73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+VIN" output
 			(at 101.6 139.7 180)
 			(uuid "80413d99-82b1-46c4-b6a4-e8847e19a3fc")
@@ -134781,7 +134087,7 @@
 			)
 		)
 		(pin "+VM" input
-			(at 152.4 139.7 180)
+			(at 152.4 129.54 180)
 			(uuid "6f55601c-5ce2-4cb1-974a-3e990d900889")
 			(effects
 				(font

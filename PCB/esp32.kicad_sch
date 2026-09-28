@@ -3579,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2f02a7-aa16-4e79-a29e-52e95813d414")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 180.34 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3720,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6cda55-183d-40b5-98ee-020f91cb58ab")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 60.96 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +3799,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3811,12 +3811,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "146a8e6b-a14b-4c12-8cdf-c006d224a0cb")
-		(property "Reference" "TP12"
+		(property "Reference" "TP6"
 			(at 139.7 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +3877,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "TP12")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3895,7 +3895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167e0fe0-190b-4bb8-9457-5cf607e1da3e")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 142.24 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4036,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb44dd7-f7c7-4f00-83d7-7e932a2abbd5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 88.9 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4115,7 +4115,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21711810-4a24-4fdb-a943-a249751aceed")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4193,7 +4193,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27439414-9921-42f6-9481-73ac0f3a4313")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 205.3433 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4403,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4579,7 +4579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36e7677f-58c0-41bb-a403-c61de9349351")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 142.24 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4720,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4ef038-afff-4afa-8e65-8b19acadfbcd")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 228.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4798,7 +4798,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436032e5-4fb7-4358-856d-0bac914ce663")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 152.4 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4876,7 +4876,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ce42ce-3971-4d3a-8544-6cbb186a458b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4966,12 +4966,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6588fdde-7d94-4290-8402-8f96e49adf0c")
-		(property "Reference" "TP13"
+		(property "Reference" "TP7"
 			(at 146.05 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5032,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "TP13")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5209,7 +5209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6daa33f4-7a10-4684-8909-6619d3f78afc")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 154.94 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5350,7 +5350,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5450,7 +5450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a172956-4446-4e02-a44e-7cbc44fb7829")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 60.96 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +5628,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e016076-8ad4-4281-81dc-7295eb83cb1a")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 231.14 120.5864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +5798,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec8655e-efa5-4526-813f-2a62abc953a5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 139.7 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5896,7 +5896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80eabe8c-e451-4045-a063-36b39697a945")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 53.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5956,7 +5956,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5975,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84966bd0-27fa-4640-a898-0e12b4fd3810")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 152.4 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6035,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6053,7 +6053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "863f37c0-c042-47bb-a379-5f1f4854fc85")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6113,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9233670d-da6c-4f49-a775-bc0c0bc645ed")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 154.94 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6272,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6443,12 +6443,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3ac0046-524b-46b9-aeee-134203e06fab")
-		(property "Reference" "TP14"
+		(property "Reference" "TP8"
 			(at 152.4 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +6509,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "TP14")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6527,7 +6527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7401b3d-a979-4523-81b6-a805752cd6a6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 203.2 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +6587,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ba682f-278e-4d12-9f6c-90c01c97d6c1")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6665,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6683,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add5bc99-4216-4717-8620-8a5a8cf32283")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 193.04 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6824,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6842,7 +6842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce03480b-9999-45b4-963c-7e3db75e6deb")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 139.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6902,7 +6902,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6919,7 +6919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56b1f59-e024-4cf8-9f72-b90de05a2679")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 90.5511 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,7 +6998,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f35e46aa-9281-47e1-8584-0bd35f30608d")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 231.14 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,7 +7396,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6abd373-d785-4511-966c-ebeeec981de4")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7475,7 +7475,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
