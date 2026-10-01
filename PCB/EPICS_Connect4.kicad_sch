@@ -2000,6 +2000,12 @@
 		(uuid "46e35885-a6f8-4205-8c5e-588b1cfe48cc")
 	)
 	(junction
+		(at 88.9 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58cc51c4-ff6e-484d-8520-af4568f6ba28")
+	)
+	(junction
 		(at 157.48 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2010,12 +2016,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb690826-9118-4f79-a1a8-f47bf06388a4")
-	)
-	(junction
-		(at 68.58 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1766ca9-4e59-4d18-b390-1e58bc7d9773")
 	)
 	(bus_entry
 		(at 199.39 139.7)
@@ -2175,16 +2175,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 160.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870a9d4a-9b05-4135-8813-cd92d44e730d")
-	)
-	(wire
-		(pts
 			(xy 95.25 81.28) (xy 101.6 81.28)
 		)
 		(stroke
@@ -2235,16 +2225,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 160.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a130357a-579e-4050-81ed-d93495ecfb33")
-	)
-	(wire
-		(pts
 			(xy 69.85 139.7) (xy 68.58 139.7)
 		)
 		(stroke
@@ -2252,16 +2232,6 @@
 			(type default)
 		)
 		(uuid "a4c10cb7-45ff-4f2f-bfde-e3feeb7c4a9b")
-	)
-	(wire
-		(pts
-			(xy 68.58 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a641d103-a916-43a5-8acd-3b5113858bec")
 	)
 	(wire
 		(pts
@@ -2382,6 +2352,16 @@
 			(type default)
 		)
 		(uuid "dc189ed3-e3b7-4fa5-8f1c-d1f6cb4b2863")
+	)
+	(wire
+		(pts
+			(xy 76.2 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee9dc7a-6d41-48af-80c7-72f903b50cad")
 	)
 	(wire
 		(pts
@@ -131277,7 +131257,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 157.48 104.14 90)
+		(at 160.02 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -131288,7 +131268,7 @@
 		(fields_autoplaced yes)
 		(uuid "43a9ef3a-fcdf-4898-8df4-ee9d026e7cbc")
 		(property "Reference" "#PWR012"
-			(at 161.29 104.14 0)
+			(at 163.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131299,7 +131279,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 153.67 104.1399 90)
+			(at 156.21 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131310,7 +131290,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 157.48 104.14 0)
+			(at 160.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131321,7 +131301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 104.14 0)
+			(at 160.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -131332,7 +131312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 104.14 0)
+			(at 160.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133503,7 +133483,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 157.48 81.28 90)
+		(at 160.02 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -133514,7 +133494,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7914c32-6b2e-4681-a85b-cd4441137a24")
 		(property "Reference" "#PWR010"
-			(at 161.29 81.28 0)
+			(at 163.83 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133525,7 +133505,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 153.67 81.2799 90)
+			(at 156.21 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133536,7 +133516,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 157.48 81.28 0)
+			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133547,7 +133527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 81.28 0)
+			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133558,7 +133538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 81.28 0)
+			(at 160.02 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

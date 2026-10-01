@@ -2091,7 +2091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c763ef75-0bd9-456c-be7b-6e7585253a75")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 151.13 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2205,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/8848091b-3b50-4b93-b829-b49cad79e851"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)

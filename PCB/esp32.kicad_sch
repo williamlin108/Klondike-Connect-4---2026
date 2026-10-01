@@ -4211,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27439414-9921-42f6-9481-73ac0f3a4313")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 205.3433 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4403,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6919,7 +6919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56b1f59-e024-4cf8-9f72-b90de05a2679")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 90.5511 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,7 +6998,7 @@
 		(instances
 			(project "EPICS_Connect4"
 				(path "/7f359823-7e50-4056-8b4f-ffb6c29ecc64/df1c4d5a-0179-43c9-baee-07d6baf032a1"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
