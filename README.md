@@ -1,5 +1,7 @@
 # Klondike Connect 4 — Electronics
 
+<img width="2160" height="932" alt="Front" src="https://github.com/user-attachments/assets/50a1a8ac-5ce3-4922-87dc-dc529ef0245e" />
+
 Electronics and firmware for the semi-automatic giant Connect 4 board built by EPICS at Purdue (Fall 2026) for Klondike Elementary School. A motorized rack-and-pinion slider releases the game pieces at the end of a round, and addressable LEDs plus a Wi-Fi web interface add interactive control.
 
 ## Features
