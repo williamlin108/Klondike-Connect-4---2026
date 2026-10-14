@@ -1,4 +1,5 @@
 # Klondike Connect 4 — Electronics
+*README generated based on internal 10/9/2026 midterm design review PowerPoint content*
 
 <img width="2160" height="932" alt="Front" src="https://github.com/user-attachments/assets/50a1a8ac-5ce3-4922-87dc-dc529ef0245e" />
 
