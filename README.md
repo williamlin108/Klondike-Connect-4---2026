@@ -111,7 +111,7 @@ docs/        Wiring diagrams and user manual
 
 - [x] Electronics specification, schematic, PCB layout
 - [x] ESP32 web control prototype
-- [ ] PCB fabrication (ordered)
+- [x] PCB fabrication (ordered)
 - [ ] Firmware (device tree drivers in progress)
 - [ ] Mechanical + electrical integration
 - [ ] Validation testing and delivery (early December 2026)
